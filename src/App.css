@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  padding: 10px;
+}
+
+.App {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.task-input {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  width: 100%;
+}
+
+.text-input {
+  width: 50%;
+  height: 32px;
+  border: solid 1px #8cb4d4;
+  border-radius: 3px;
+}
+
+.text-input:focus {
+  outline: none;
+  border: solid 2px #8cb4d4;
+}
+
+.submit-button {
+  color: #537189;
+  background-color: #bcd7ed;
+  box-shadow: inset -2px -2px #8cb4d4;
+  border: none;
+  width: 48px;
+  border-radius: 3px;
+  cursor: pointer;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.submit-button:focus {
+  outline: none;
+  border: solid 2px #8cb4d4;
+}

@@ -1,0 +1,42 @@
+.task-item {
+    display: grid;
+    grid-template-columns: 3fr auto;
+    max-width: 680px;
+    min-width: none;
+    background-color: #bcd7ed;
+    min-height: 32px;
+    border-radius: 3px;
+    overflow: hidden;
+    align-items: center;
+    width: 60%;
+    padding: 5px;
+    gap: 10px;
+}
+
+.task-text {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    white-space: normal;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.task-text.completed {
+    text-decoration: line-through;
+    color: grey;
+}
+
+.delete {
+    cursor: pointer;
+    padding: 5px 10px;
+    border: none;
+    background-color: #fff;
+    color: black;
+    border-radius: 4px;
+}
+
+.delete:focus {
+    outline: none;
+    border: solid 2px #8cb4d4;
+}
+

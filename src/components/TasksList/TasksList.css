@@ -1,0 +1,7 @@
+.tasks-list {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+}
